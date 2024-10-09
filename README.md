@@ -4,4 +4,4 @@ Resolution approchée d'équations différentielles fortement oscillantes via l'
 
 ### Averaging_ML ###
 
-Code Python permettant l'approximation de solutions d'équations de la forme $\dot{y}$
+Code Python permettant l'approximation de solutions d'équations différentielles de la forme $$\dot{y}$$
