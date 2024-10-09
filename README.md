@@ -24,4 +24,6 @@ Possibilités avec les fonctions du programme:
 - Courbes de convergence: test du caractère UA de la méthode Micro-Macro avec les champs appris.
 - Courbes de convergence: approximation du champ moyenné modifié ainsi que du générateur de fortes oscillations, erreurs par rapport à $\epsilon$.
 
-### Autonomous_Averaging_ML ###
+### Averaging_Autonomous_ML ###
+
+Code Python permettant l'approximation de solutions d'équations différentielles de la forme $$y' = \frac{1}{\epsilon}Ay + g(y)$$
