@@ -26,4 +26,22 @@ Possibilités avec les fonctions du programme:
 
 ### Averaging_Autonomous_ML ###
 
-Code Python permettant l'approximation de solutions d'équations différentielles de la forme $$y' = \frac{1}{\epsilon}Ay + g(y)$$
+Code Python permettant l'approximation de solutions d'équations différentielles de la forme $$y' = (1/\epsilon)Ay + g(y)$$, où $A$ est une matrice donc les valeurs prores sont des multiples de $i$. Avec un changement de variable (et donc de fonction), il est possible de se ramener au cas précédent. Mais une nouvelle approche est testée, en regardant ici la solution comme composition de deux flots (un pour la dynamique lente, l'autre pour la dynamique rapide). 
+
+Apprentissage des deux flots via des réseaux de neurones "classiques" (pas d'auto-encodeur cette fois).
+
+Etapes suivies:
+
+- Création de données
+- Entraînement des réseaux de neurones
+- Intégration numérique: méthode numérique.
+
+Possibilités avec les fonctions du programme:
+
+- Création de données
+- Apprentissage via minimisation de Loss
+- Intégration numérique via une méthode numérique choisie
+- Courbes de convergence: erreur numérique (méthode numérique)
+
+Une comparaison entre les deu programmes peut-être réalisée.
+
